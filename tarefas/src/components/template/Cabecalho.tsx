@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable tailwindcss/no-custom-classname */
-export default function Cabecalho(props) {
+export default function Cabecalho(props: any) {
   return (
     <div className="flex h-1/3 bg-img-tarefas bg-cover bg-no-repeat">
       <div
